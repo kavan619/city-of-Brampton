@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 driver.get('https://cityofbrampton.perfectmind.com/Menu/MemberRegistration/MemberSignIn')
 driver.set_window_size(1920, 1080)
 username = driver.find_element(By.ID,'textBoxUsername')
-username.send_keys('Kavan.Gudhka@brampton.ca')
+username.send_keys('') # place your username in the quotes
 box = driver.find_element(By.CLASS_NAME, 'forgot-pass')
 box.click()
 
